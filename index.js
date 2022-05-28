@@ -39,7 +39,7 @@ app.get("/fetch", async (req,res) => {
       else { var count = req.query.top; }
       var config = {
         method: "get",
-        url: `https://m.tiktok.com/api/discover/challenge/?discoverType=0&needItemList=false&keyWord&offset=&count=${count}&language=en`,
+        url: `https://tiktok.com/api/discover/challenge/?discoverType=0&needItemList=false&keyWord&offset=&count=${count}&language=en`,
         headers: {
           "user-agent":
             "Mozilla/5.0 (Linux; Android 7.1.1; Nexus 6 Build/N6F26U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Mobile Safari/537.36",
